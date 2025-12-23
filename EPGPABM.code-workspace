@@ -1,0 +1,30 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.analysis.typeCheckingMode": "basic", // Set type checking mode to basic
+
+        "[python]": {
+                "editor.tabSize": 4, // Set tab size to 4 spaces for Python files
+                "editor.formatOnSave": true, // Enable format on save
+                "editor.codeActionsOnSave": {
+                    "source.fixAll": "explicit",
+                    "source.organizeImports": "explicit"
+                }
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.rulers": [
+                120
+            ]
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.mypy-type-checker",
+            "charliermarsh.ruff"
+        ]
+    }
+}
