@@ -52,7 +52,7 @@ It could be `python` or `python3` depending on your installation.
 Replace `filename.py` with the name of the Python file you want to run. eg:
 
 ```shell
-python3 001print.py
+python3 01print.py
 ```
 
 ## Using the Tutorial
