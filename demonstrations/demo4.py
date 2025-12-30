@@ -1,10 +1,19 @@
 # Data Structures
 # Lists, Dictionaries, Tuples, Sets
-list_example = [1, 2, 3, 4, 5, 5, 5, ]
+
+list_example = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    5,
+    5,
+]
 dict_example = {
-    "name": "Alice", 
-    "age": 25, 
-    "cgpa": 3.8,    
+    "name": "Alice",
+    "age": 25,
+    "cgpa": 3.8,
 }
 tuple_example = (1, 2, 3)
 set_example = {1, 2, 3, 4, 5, 5, 5}  # Duplicates will be removed from a set

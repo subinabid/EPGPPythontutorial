@@ -33,6 +33,15 @@ git clone https://github.com/subinabid/EPGPPythontutorial.git
 
 This will create a local copy of the repository on your machine.
 
+The contents of this repository may be updated periodically. To get the latest version, go to your folder in the terminal and type
+
+``` shell
+git pull
+```
+
+say yes to any warnings. A word of caution - this will remove any changes you made to the  files and/or any content that you might have put in the same folder
+
+
 ### Running the Code
 
 You can run the Python code in this tutorial using the command line or terminal. Navigate to the directory where the code is located and use the following command:

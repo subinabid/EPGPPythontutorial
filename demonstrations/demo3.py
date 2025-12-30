@@ -1,3 +1,5 @@
+"""Code demonstration for instance variables vs class variables."""
+
 
 class Share:
     # These are variables that each instance of Share will have
@@ -12,6 +14,7 @@ class Share:
         self.price = price
         self.quantity = quantity
 
+
 class Student:
     # Note that there are no variables defined here
     # They will be created in the constructor
@@ -25,19 +28,14 @@ class Student:
         self.cgpa: float = cgpa
 
 
-
-
-
-
-
-list1 = [1, 2, 3, 4, 5]
-
 class Person:
+    """A class to demonstrate class vs instance variables."""
 
     friends: list[str] = []
 
     def __init__(self, name: str):
         self.name = name
+
 
 p1 = Person("Alice")
 p2 = Person("Bob")
@@ -51,4 +49,3 @@ p1.friends.append("David")
 print(p1.friends)
 print(p2.friends)
 print(p3.friends)
-
